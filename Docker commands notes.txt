@@ -1,0 +1,12 @@
+Docker commands
+
+The below commands are very important as they are  used for deployment  purpose
+
+1) FROM  ----- this is used to bring  docker hub  os  like ubuntu linux  to our environment
+2) COPY  ----- this is used to copy the folder (complete data ml model) ml code from local to docker folder
+3) EXPOSE ---- this is necessary that one port number requires to expose the ml model to outside world  ex :5000 or 1000 etc 
+4) WORKDIR ---- this is used to pull the local folder docker folder ie, usr/python/local
+5) RUN ----     this is used to install required packages from requirments.txt ie, pip install -r requirments.txt
+6) CMD ----     this is used to execute the python file main file  ie,python app.py may be a flask python web app on cmd. 
+
+

@@ -1,0 +1,31 @@
+### we have compatibility with windows 10 fighting with windows 8
+
+https://docs.docker.com/docker-for-windows/docker-toolbox/
+
+https://docs.docker.com/docker-for-windows/release-notes/#docker-desktop-community-2101    --------------windows 8 compatibilty url
+
+https://github.com/docker/toolbox/releases ------ github for older versions
+
+
+https://github.com/docker/toolbox/releases/download/v19.03.1/DockerToolbox-19.03.1.exe   ---- this is workiing for me
+
+issue is start.sh file   ---- commented out first eval  from STEP="Setting env"  -------   https://github.com/docker/toolbox/issues/793
+
+
+this above exe file will have docker ,kitematic ---docker ui  ,virtual box
+
+
+
+======================  links  ============================
+
+
+https://devconnected.com/how-to-install-docker-on-windows-7-8-10-home-and-pro/    ------good links
+
+https://forums.docker.com/t/docker-and-windows-8/21401    ----good links
+
+
+
+
+https://www.youtube.com/watch?v=ymlWt1MqURY  --------------debug docker
+
+

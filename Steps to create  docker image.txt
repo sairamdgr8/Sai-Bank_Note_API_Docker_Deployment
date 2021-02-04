@@ -1,0 +1,13 @@
+steps to create docker image:
+
+1) write a docker file
+2)building the docker image
+3)running our bank note authenticator app
+
+Building the docker image
+ docker build -t  bank_note_api .
+ 
+ 
+ see the dockers
+  running the dockers 
+  docker run -p 8000:8000 bank_note_api

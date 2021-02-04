@@ -1,0 +1,11 @@
+docker push from docker local container to docker hub
+
+================
+
+docker login --username=yourhubusername --password=yourpassword
+
+docker ps ==== pull out the container id
+
+docker commit <$container id> <$DOCKER_REPO:$IMG_TAG>
+
+docker push DOCKER_REPO:$IMG_TAG   === sairamdgr8/bankk_note_api_simple_note_api_simple:latest

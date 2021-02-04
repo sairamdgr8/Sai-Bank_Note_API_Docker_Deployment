@@ -1,0 +1,1 @@
+this code determines the whether the bank note with given features is authentic or not
