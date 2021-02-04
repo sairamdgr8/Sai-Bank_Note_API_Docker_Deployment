@@ -1,0 +1,1 @@
+https://alexioannides.com/2019/01/10/deploying-python-ml-models-with-flask-docker-and-kubernetes/
