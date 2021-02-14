@@ -1,0 +1,19 @@
+Docker push commands
+
+===========================================================
+Note:docker container should be up and running
+
+
+docker commit  <container_id> <username/reponame>
+docker commit  5d83de322b5a  sairamdgr8/Sai_Airflow_Docker
+
+docker login 
+
+give username and password  << if login succedded skip
+
+
+docker push  <username/reponame>
+docker push  sairamdgr8/sai_airflow_docker
+
+
+
