@@ -1,0 +1,26 @@
+=============transfer dags files from windows to linux server on docker toolbox 
+
+
+1)docker stop <container id> ==== which is running 
+
+
+2)docker cp <file>  <conatiner_id>:/usr/local/airflow/dags/<file>
+docker cp mymovedag.py  becccb825e16:/usr/local/airflow/dags/mymovedag.py
+
+
+
+
+3)docker start <container_id>
+docker start becccb825e16
+
+   or 
+
+4)docker exec -it --user  root <conatiner_id> /bin/bash   
+docker exec -it --user  root becccb825e16 /bin/bash
+
+
+5)ls
+
+6)cd dags
+
+7)now you can see the file that is moved from windows to docker container
